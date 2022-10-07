@@ -1,0 +1,252 @@
+{
+  "name": "employmentcountry",
+  "title": "Employmentcountry",
+  "resources": [
+    {
+      "path": "data/data.csv",
+      "pathType": "local",
+      "name": "data",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Lang",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Country_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Country_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Collection_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Collection_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Indicator_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Indicator_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unit_Measure_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unit_Measure_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Unit_Multiplier_Code",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Unit_Multiplier_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Currency_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Currency_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Source_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Source_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Survey_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Survey_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Sex_Item_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Sex_Item_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif1_Version_Item_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif1_Version_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif1_Item_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif2_Version_Item_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif2_Version_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif2_Item_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif3_Version_Item_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif3_Version_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif3_Item_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif4_Version_Item_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif4_Version_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif4_Item_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif5_Version_Item_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif5_Version_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Classif5_Item_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Time",
+            "type": "year",
+            "format": "default"
+          },
+          {
+            "name": "Obs_Value",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Flag_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Flag_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Notes_Source_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Notes_Source_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Notes_Indicator_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Notes_Indicator_Label",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Notes_Classif_Code",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Notes_Classif_Label",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
