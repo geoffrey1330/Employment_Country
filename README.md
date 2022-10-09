@@ -1,5 +1,15 @@
 # employment-global
 
+Global Employment statistical dataset of individuals base on their Sex, Industry and Country where they work. Data are sourced from International Labour Organization.
+
+## Data
+
+### Sources
+
+1. 
+    * Name: Employment by Industry by Country. International Labour Organization Statistical dataset (ILOSTAT)
+    * gdrive: https://docs.google.com/spreadsheets/d/1QvbKTaxOgB0Sdb09MNRDpIiiPWqsnmiVpwH7mCAfue4/edit?usp=sharing
+
 ## Getting Started
 To use this project locally [python](https://www.python.org/downloads/)  needs to be installed.
 
