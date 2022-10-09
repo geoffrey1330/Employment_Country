@@ -1,11 +1,33 @@
 {
   "name": "employment-global",
-  "title": "employment-global",
+  "title": "Employment global",
   "resources": [
+    {
+      "path": "Makefile",
+      "pathType": "local",
+      "name": "makefile",
+      "format": "",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "requirements.txt",
+      "pathType": "local",
+      "name": "requirements",
+      "format": "txt",
+      "mediatype": "text/plain",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "scripts/process.py",
+      "pathType": "local",
+      "name": "process",
+      "format": "py",
+      "encoding": "ISO-8859-1"
+    },
     {
       "path": "data/employment.csv",
       "pathType": "local",
-      "name": "data",
+      "name": "employment",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "UTF-8",
@@ -240,324 +262,15 @@
           ""
         ]
       }
-    },
-    {
-      "path": "requirements.txt",
-      "pathType": "local",
-      "name": "requirements",
-      "format": "txt",
-      "mediatype": "text/plain",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/COMMIT_EDITMSG",
-      "pathType": "local",
-      "name": "commit_editmsg",
-      "format": "",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/FETCH_HEAD",
-      "pathType": "local",
-      "name": "fetch_head",
-      "format": "",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/HEAD",
-      "pathType": "local",
-      "name": "head",
-      "format": "",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/ORIG_HEAD",
-      "pathType": "local",
-      "name": "orig_head",
-      "format": "",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/config",
-      "pathType": "local",
-      "name": "config",
-      "format": "",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/description",
-      "pathType": "local",
-      "name": "description",
-      "format": "",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/index",
-      "pathType": "local",
-      "name": "index",
-      "format": "",
-      "encoding": "windows-1252"
-    },
-    {
-      "path": ".git/hooks/applypatch-msg.sample",
-      "pathType": "local",
-      "name": "applypatch-msg",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/commit-msg.sample",
-      "pathType": "local",
-      "name": "commit-msg",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/fsmonitor-watchman.sample",
-      "pathType": "local",
-      "name": "fsmonitor-watchman",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/post-update.sample",
-      "pathType": "local",
-      "name": "post-update",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/pre-applypatch.sample",
-      "pathType": "local",
-      "name": "pre-applypatch",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/pre-commit.sample",
-      "pathType": "local",
-      "name": "pre-commit",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/pre-merge-commit.sample",
-      "pathType": "local",
-      "name": "pre-merge-commit",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/pre-push.sample",
-      "pathType": "local",
-      "name": "pre-push",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/pre-rebase.sample",
-      "pathType": "local",
-      "name": "pre-rebase",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/pre-receive.sample",
-      "pathType": "local",
-      "name": "pre-receive",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/prepare-commit-msg.sample",
-      "pathType": "local",
-      "name": "prepare-commit-msg",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/push-to-checkout.sample",
-      "pathType": "local",
-      "name": "push-to-checkout",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/hooks/update.sample",
-      "pathType": "local",
-      "name": "update",
-      "format": "sample",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/info/exclude",
-      "pathType": "local",
-      "name": "exclude",
-      "format": "",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/logs/refs/heads/main",
-      "pathType": "local",
-      "name": "main",
-      "format": "",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/objects/26/42fe49e50518888410ec2dadbfdc57a5eba36c",
-      "pathType": "local",
-      "name": "42fe49e50518888410ec2dadbfdc57a5eba36c",
-      "format": "",
-      "encoding": "windows-1250"
-    },
-    {
-      "path": ".git/objects/26/c3db79ac8adfbbddf5592bd4424bf7293e56d8",
-      "pathType": "local",
-      "name": "c3db79ac8adfbbddf5592bd4424bf7293e56d8",
-      "format": "",
-      "encoding": "ISO-8859-5"
-    },
-    {
-      "path": ".git/objects/2a/4599be3ef573ea0b3078bf076e76067d7cc80b",
-      "pathType": "local",
-      "name": "4599be3ef573ea0b3078bf076e76067d7cc80b",
-      "format": "",
-      "encoding": "windows-1253"
-    },
-    {
-      "path": ".git/objects/3e/d371e52784ad881a4e5c9bb18107c02f3c44ea",
-      "pathType": "local",
-      "name": "d371e52784ad881a4e5c9bb18107c02f3c44ea",
-      "format": "",
-      "encoding": "windows-1252"
-    },
-    {
-      "path": ".git/objects/42/0735005027514eb228d53ba31b59972b62fc23",
-      "pathType": "local",
-      "name": "0735005027514eb228d53ba31b59972b62fc23",
-      "format": "",
-      "encoding": "windows-1250"
-    },
-    {
-      "path": ".git/objects/49/6ee2ca6a2f08396a4076fe43dedf3dc0da8b6d",
-      "pathType": "local",
-      "name": "6ee2ca6a2f08396a4076fe43dedf3dc0da8b6d",
-      "format": "",
-      "encoding": "windows-1252"
-    },
-    {
-      "path": ".git/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904",
-      "pathType": "local",
-      "name": "825dc642cb6eb9a060e54bf8d69288fbee4904",
-      "format": "",
-      "encoding": "GB18030"
-    },
-    {
-      "path": ".git/objects/55/d920f85bf3609c90932f2bf5d8333b4198d278",
-      "pathType": "local",
-      "name": "d920f85bf3609c90932f2bf5d8333b4198d278",
-      "format": "",
-      "encoding": "Shift-JIS"
-    },
-    {
-      "path": ".git/objects/5d/a059b1f3f91d52bfc21669389f1229cb1178c0",
-      "pathType": "local",
-      "name": "a059b1f3f91d52bfc21669389f1229cb1178c0",
-      "format": "",
-      "encoding": "windows-1252"
-    },
-    {
-      "path": ".git/objects/87/e803da74f1aeb4d2ab5fb82061dc5829e69e10",
-      "pathType": "local",
-      "name": "e803da74f1aeb4d2ab5fb82061dc5829e69e10",
-      "format": "",
-      "encoding": "windows-1252"
-    },
-    {
-      "path": ".git/objects/a5/610f975df5afa13d6cf2b8c024eafeb00e900d",
-      "pathType": "local",
-      "name": "610f975df5afa13d6cf2b8c024eafeb00e900d",
-      "format": "",
-      "encoding": "windows-1252"
-    },
-    {
-      "path": ".git/objects/e8/c3a3542fdb0ed200287c33fefbf3652d2a19e1",
-      "pathType": "local",
-      "name": "c3a3542fdb0ed200287c33fefbf3652d2a19e1",
-      "format": "",
-      "encoding": "Shift-JIS"
-    },
-    {
-      "path": ".git/objects/eb/9b5e7980c8c6b0200e45d9d54bfb05296d38af",
-      "pathType": "local",
-      "name": "9b5e7980c8c6b0200e45d9d54bfb05296d38af",
-      "format": "",
-      "encoding": "windows-1253"
-    },
-    {
-      "path": ".git/objects/ec/a674f774947dd45626e74432aa671b89f52427",
-      "pathType": "local",
-      "name": "a674f774947dd45626e74432aa671b89f52427",
-      "format": "",
-      "encoding": "windows-1252"
-    },
-    {
-      "path": ".git/objects/ec/d9da5b869a971e49b0b603ca846ab6ba873e43",
-      "pathType": "local",
-      "name": "d9da5b869a971e49b0b603ca846ab6ba873e43",
-      "format": "",
-      "encoding": "windows-1250"
-    },
-    {
-      "path": ".git/objects/f1/9f97df79933be9fdf976e9513dd85681687a39",
-      "pathType": "local",
-      "name": "9f97df79933be9fdf976e9513dd85681687a39",
-      "format": "",
-      "encoding": "KOI8-R"
-    },
-    {
-      "path": ".git/objects/f9/1f3514fe75a3ba2d59d9e6e271bfff11b55a26",
-      "pathType": "local",
-      "name": "1f3514fe75a3ba2d59d9e6e271bfff11b55a26",
-      "format": "",
-      "encoding": "windows-1255"
-    },
-    {
-      "path": "scripts/process.py",
-      "pathType": "local",
-      "name": "process",
-      "format": "py",
-      "encoding": "ISO-8859-1"
-    },
-    {
-      "path": ".git/objects/2c/dec22e93ab13dc7b85cf08b979c78fa7685d8b",
-      "pathType": "local",
-      "name": "dec22e93ab13dc7b85cf08b979c78fa7685d8b",
-      "format": "",
-      "encoding": "windows-1255"
-    },
-    {
-      "path": ".git/objects/57/efd2a5d2f8be35fa541e8298fb1117155f73cf",
-      "pathType": "local",
-      "name": "efd2a5d2f8be35fa541e8298fb1117155f73cf",
-      "format": "",
-      "encoding": "windows-1252"
-    },
-    {
-      "path": ".git/objects/64/1a9c0908f97eb5241f93fcbadd836dfe937458",
-      "pathType": "local",
-      "name": "1a9c0908f97eb5241f93fcbadd836dfe937458",
-      "format": "",
-      "encoding": "windows-1255"
     }
   ],
+  "readme": "# employment-global\n\n## Getting Started\nTo use this project locally [python](https://www.python.org/downloads/)  needs to be installed.\n\n1. **Clone the repository:**\n    ```\n    git clone -b main https://github.com/geoffrey1330/employment-global.git\n    ```\n2. **Enter the project directory:**\n    ```\n    cd employment-global\n    ```\n3. **Setup the virtual environment by running:**\n    ```\n    virtualenv venv\n    source venv/bin/activate \n    ```\n    \n4. **Install External Dependencies:**\n    ```\n    pip install -r requirements.txt\n    ```\n   \n5. **Running the script**\n    In the project root directory, run:\n    ```\n    python scripts/process.py\n    ```\n",
+  "description": "# employment-global\n\n## Getting Started\nTo use this project locally [python](https://www.python.org/",
   "licenses": [
     {
       "name": "ODC-PDDL",
       "path": "http://opendatacommons.org/licenses/pddl/",
       "title": "Open Data Commons Public Domain Dedication and License"
     }
-  ],
-  "readme": "# employment_global\n",
-  "description": "# employment_global\n"
+  ]
 }
