@@ -18,13 +18,6 @@
       "encoding": "ISO-8859-1"
     },
     {
-      "path": "scripts/process.py",
-      "pathType": "local",
-      "name": "process",
-      "format": "py",
-      "encoding": "ISO-8859-1"
-    },
-    {
       "path": "data/employment.csv",
       "pathType": "local",
       "name": "employment",
@@ -262,10 +255,17 @@
           ""
         ]
       }
+    },
+    {
+      "path": "scripts/process.py",
+      "pathType": "local",
+      "name": "process",
+      "format": "py",
+      "encoding": "ISO-8859-1"
     }
   ],
-  "readme": "# employment-global\n\n## Getting Started\nTo use this project locally [python](https://www.python.org/downloads/)  needs to be installed.\n\n1. **Clone the repository:**\n    ```\n    git clone -b main https://github.com/geoffrey1330/employment-global.git\n    ```\n2. **Enter the project directory:**\n    ```\n    cd employment-global\n    ```\n3. **Setup the virtual environment by running:**\n    ```\n    virtualenv venv\n    source venv/bin/activate \n    ```\n    \n4. **Install External Dependencies:**\n    ```\n    pip install -r requirements.txt\n    ```\n   \n5. **Running the script**\n    In the project root directory, run:\n    ```\n    python scripts/process.py\n    ```\n",
-  "description": "# employment-global\n\n## Getting Started\nTo use this project locally [python](https://www.python.org/",
+  "readme": "# employment-global\n\nGlobal Employment statistical dataset of individuals base on their Sex, Industry and Country where they work. Data are sourced from International Labour Organization.\n\n## Data\n\n### Sources\n\n1. \n    * Name: Employment by Industry by Country. International Labour Organization Statistical dataset (ILOSTAT)\n    * gdrive: https://docs.google.com/spreadsheets/d/1QvbKTaxOgB0Sdb09MNRDpIiiPWqsnmiVpwH7mCAfue4/edit?usp=sharing\n\n## Getting Started\nTo use this project locally [python](https://www.python.org/downloads/)  needs to be installed.\n\n1. **Clone the repository:**\n    ```\n    git clone -b main https://github.com/geoffrey1330/employment-global.git\n    ```\n2. **Enter the project directory:**\n    ```\n    cd employment-global\n    ```\n3. **Setup the virtual environment by running:**\n    ```\n    virtualenv venv\n    source venv/bin/activate \n    ```\n    \n4. **Install External Dependencies:**\n    ```\n    pip install -r requirements.txt\n    ```\n   \n5. **Running the script**\n    In the project root directory, run:\n    ```\n    python scripts/process.py\n    ```\n",
+  "description": "# employment-global\n\nGlobal Employment statistical dataset of individuals base on their Sex, Industr",
   "licenses": [
     {
       "name": "ODC-PDDL",
